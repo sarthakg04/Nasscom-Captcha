@@ -70,7 +70,7 @@ function winGame() {
 
 function play(e) {
     e.preventDefault();
-    if (total.innerHTML >= 3) {
+    if (total.innerHTML >= 1) {
         winGame();
         return;
     }

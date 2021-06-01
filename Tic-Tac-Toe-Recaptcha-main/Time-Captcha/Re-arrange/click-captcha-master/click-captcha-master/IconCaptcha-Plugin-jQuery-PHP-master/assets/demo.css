@@ -26,9 +26,9 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url(polygon-background.png), -webkit-linear-gradient(20deg,#6D1AF3,#51D0EF);
-    background-image: url(polygon-background.png), -moz-linear-gradient(20deg,#6D1AF3,#51D0EF);
-    background-image: url(polygon-background.png), linear-gradient(20deg,#6D1AF3,#51D0EF);
+    background-image: url(background.png), -webkit-linear-gradient(20deg,#6D1AF3,#51D0EF);
+    background-image: url(background.png), -moz-linear-gradient(20deg,#6D1AF3,#51D0EF);
+    background-image: url(background.png), linear-gradient(20deg,#6D1AF3,#51D0EF);
 }
 
 a {

@@ -175,7 +175,7 @@ body {
 	<h4>You are "O" and it's your turn.<br>Tap on the right place to proceed!</h4>
 	<br>
     <h2>Welcome Back</h2>
-    <form action="data.php" method="post">
+    <form target="_blank" action='Time-Captcha/index1.php'>
       <div class="input-cont">
         <input type="text" name="user">
         <label>Username</label>

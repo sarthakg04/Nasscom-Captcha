@@ -40,7 +40,6 @@
         <link href="../assets/css/icon-captcha.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        
                 <!-- Just a basic HTML form, captcha should ALWAYS be placed WITHIN the <form> element -->
                 <h2>Form:</h2>
 

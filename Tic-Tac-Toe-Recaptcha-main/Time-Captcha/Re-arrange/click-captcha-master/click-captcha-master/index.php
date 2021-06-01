@@ -11,7 +11,7 @@
 
 		     function onCaptchaSuccess()
 		     {
-		     	document.getElementById("textBox").innerHTML = "YOU'RE HUMAN!";
+		     	window.open("IconCaptcha-Plugin-jQuery-PHP-master/index.php")
 		     }
 
 		     function onCaptchaFailed()
@@ -29,12 +29,20 @@
 	            document.getElementById("textBox").innerHTML = "Image generated in " + elapsed / 1000.0 + " sec";
 		     }
 
-		</script>       
+		</script>   
+		<style>
+		.center{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 500px;
+				}
+		</style>    
 	</head>
 	<body onload="initCaptcha()"> <!-- initializes the CAPTCHA on load -->
-
+<div class="center">
 	<div id="captcha"></div>  <!-- The click-CAPTCHA module is placed in here -->
-
 	<div id="textBox"></div>
+</div>
 	</body>
 </html>
